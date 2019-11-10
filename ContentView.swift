@@ -18,7 +18,7 @@ struct ContentView: View {
             Button(action: {self.textState = 1}){
                 Text("Press to change text")
                     .font(.title)
-                    .foregroundColor(Color.yellow)
+                    .foregroundColor(Color.blue)
                     .bold()
             }
             Button(action: {
@@ -26,7 +26,7 @@ struct ContentView: View {
             }) {
                 Text("Press to un-change text")
                     .font(.title)
-                    .foregroundColor(Color.orange)
+                    .foregroundColor(Color.red)
                     .bold()
                     
                 }
