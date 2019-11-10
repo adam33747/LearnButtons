@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Project
+//  LearnButtons
 //
 //  Created by Adam Hu on 11/2/19.
 //  Copyright © 2019 Adam Hu. All rights reserved.
@@ -31,11 +31,11 @@ struct ContentView: View {
                     
                 }
             if(textState == 1){
-                Text("Beep Boop")
+                Text("text #2")
                 
             }
             else if(textState == 2){
-                Text("Boop Beep")
+                Text("text #1")
             }
         
            
